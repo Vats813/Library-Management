@@ -82,7 +82,7 @@ How It Works:
 8. CGPA Calculator: Calculates the CGPA of a student, given their Student ID. 
    
 Future Enhancements
-1. Implement sorting algorithms to display records in a particular order.
+1. Implement efficient sorting algorithms to display records in a particular order.
 2. Add validation for input fields (e.g., ensuring unique course codes, student IDs).
 3. Develop a GUI version for a better user experience.
 4. Allow for more complex queries (e.g., view all students in a specific course).
