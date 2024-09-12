@@ -3,7 +3,6 @@ Student Database Management System (SDBMS).
 Overview:
 The Student Database Management System (SDBMS) is a console-based application developed in C++ that allows for the efficient management of student data, courses, and grades. 
 The system supports operations like adding, updating, deleting, and searching for records related to students, courses, and grades. 
-It also supports SQL queries for calculating student CGPA and reports on student enrollment by major.
 It is designed to provide a simple yet effective way to organize and retrieve information for educational institutions.
 
 Features:
@@ -14,7 +13,6 @@ Features:
 5. Delete Records: Safely remove student, course, or grade data when necessary.
 6. Search Functionality: Quickly find students, courses, or grades based on key attributes.
 7. View All Records: Display all student, course, or grade records stored in the system.
-8. CGPA Calculator: Quickly calculate the CGPA of a student, given their grade records.
 
 Entities:
 1. Students:
@@ -69,7 +67,9 @@ File Structure:
 5. course.cpp: Implements the functionality of the Course class.
 6. grade.h: Header file for the Grade class, containing attributes and methods for grade management.
 7. grade.cpp: Implements the functionality of the Grade class.
-8. data.txt: Stores student, course, and grade information (if using text files for storage).
+8. students.txt: Stores student information.
+9. courses.txt: Stores course information.
+10. grades.txt: Stores grade information.
    
 How It Works:
 1. Adding a Student: Prompts the user to enter a student's details (name, ID number, major, and year) and saves them to the database.
@@ -79,7 +79,6 @@ How It Works:
 5. Deleting Records: Remove student, course, or grade records when necessary.
 6. Search Function: Lookup students, courses, or grades by their attributes (e.g., student ID, course code).
 7. View All Records: Displays all records.
-8. CGPA Calculator: Calculates the CGPA of a student, given their Student ID. 
    
 Future Enhancements
 1. Implement efficient sorting algorithms to display records in a particular order.
