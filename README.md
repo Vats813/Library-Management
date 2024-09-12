@@ -15,40 +15,36 @@ Features:
 6. Search Functionality: Quickly find students, courses, or grades based on key attributes.
 7. View All Records: Display all student, course, or grade records stored in the system.
 8. CGPA Calculator: Quickly calculate the CGPA of a student, given their grade records.
-9. Student enrollment: Provide a detailed summary on student enrollment by major.
 
 Entities:
-1. Students
-Attributes:
-Name: Full name of the student.
-ID Number: Unique identification number for each student.
-Major: The student's field of study.
-Year: The student's academic year (e.g., Freshman, Sophomore).
+1. Students:
+      * Name: Full name of the student.
+      * ID_Number: Unique identification number for each student.
+      * Major: The student's field of study.
+      * Year: The student's academic year (e.g., Freshman, Sophomore).
 
-2. Courses
-Attributes:
-Course Code: Unique code identifying the course.
-Name: Name of the course.
-Credits: The number of credits assigned to the course.
-Instructor: The name of the instructor teaching the course.
+2. Courses:
+      * Course_Code: Unique code identifying the course.
+      * Name: Name of the course.
+      * Credits: The number of credits assigned to the course.
+      * Instructor: The name of the instructor teaching the course.
 
-3. Grades
-Attributes:
-Student ID: The ID number of the student.
-Course Code: The code of the course the grade is assigned to.
-Grade: The student's grade in the course.
+3. Grades:
+      * Student_ID: The ID number of the student.
+      * Course_Code: The code of the course the grade is assigned to.
+      * Grade: The student's grade in the course.
 
-Technologies Used
-Programming Language: C++
-Data Storage: File system using text or binary files to store data persistently.
-File Handling: Implements C++ file I/O operations to read from and write to files for student, course, and grade information.
+Technologies Used:
+* Programming Language: C++
+* Data Storage: File system using text or binary files to store data persistently.
+* File Handling: Implements C++ file I/O operations to read from and write to files for student, course, and grade information.
 
 How to Run:
 
-Prerequisites
+Prerequisites:\
 A C++ compiler (e.g., GCC or MSVC)
 
-Steps to Run the Program
+Steps to Run the Program:
 1. Clone the repository to your local machine.
 ```
 git clone https://github.com/yourusername/sdbms.git
@@ -82,9 +78,12 @@ How It Works:
 4. Updating Records: Modify existing student, course, or grade details.
 5. Deleting Records: Remove student, course, or grade records when necessary.
 6. Search Function: Lookup students, courses, or grades by their attributes (e.g., student ID, course code).
+7. View All Records: Displays all records.
+8. CGPA Calculator: Calculates the CGPA of a student, given their Student ID. 
    
 Future Enhancements
 1. Implement sorting algorithms to display records in a particular order.
 2. Add validation for input fields (e.g., ensuring unique course codes, student IDs).
 3. Develop a GUI version for a better user experience.
 4. Allow for more complex queries (e.g., view all students in a specific course).
+5. Implement the database using B-trees.
